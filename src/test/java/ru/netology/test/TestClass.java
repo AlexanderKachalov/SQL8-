@@ -6,8 +6,6 @@ import org.junit.jupiter.api.Test;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import static com.codeborne.selenide.Selenide.open;
-
 public class TestClass {
     @Test
     void loginPageTestWithSQL() throws SQLException, InterruptedException {
@@ -17,7 +15,7 @@ public class TestClass {
 
         try (
                 val conn = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306", "app", "pass"
+                        "jdbc:mysql://localhost:3306/app", "app", "pass"
                 );
         ) {
             dataHelper.validLogin();
