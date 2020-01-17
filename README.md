@@ -1,4 +1,4 @@
-
+[![Build status](https://ci.appveyor.com/api/projects/status/svsmx0kpf5pil8r2?svg=true)](https://ci.appveyor.com/project/Alexander43884/sql8)
 ### Тестирование функции получения СМС-кода из базы данных при авторизации на странице
 
 ---
